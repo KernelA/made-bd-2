@@ -1,49 +1,43 @@
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
+# HW02 Hive
 
-# docker-hive
+[Описание заданий](https://github.com/netcitizenrus/MADE_BigData_2021/blob/fe2e1a0143a8a175e2b42a756fd433aea7db4dc1/HW2%20-%20Hive.pdf)
 
-This is a docker container for Apache Hive 2.3.2. It is based on https://github.com/big-data-europe/docker-hadoop so check there for Hadoop configurations.
-This deploys Hive and starts a hiveserver2 on port 10000.
-Metastore is running with a connection to postgresql database.
-The hive configuration is performed with HIVE_SITE_CONF_ variables (see hadoop-hive.env for an example).
+## Блок 1 Развёртывание Hive
 
-To run Hive with postgresql metastore:
-```
-    docker-compose up -d
-```
+[Скриншоты Hive с Hue](images/README.md)
 
-To deploy in Docker Swarm:
-```
-    docker stack deploy -c docker-compose.yml hive
-```
+## Бок 2 Работа с Hive
 
-To run a PrestoDB 0.181 with Hive connector:
+### Создание таблицы и загрузка данных
 
-```
-  docker-compose up -d presto-coordinator
-```
+[SQL DDL](quries/create_and_load.sql)
 
-This deploys a Presto server listens on port `8080`
+### Запросы
 
-## Testing
-Load data into Hive:
-```
-  $ docker-compose exec hive-server bash
-  # /opt/hive/bin/beeline -u jdbc:hive2://localhost:10000
-  > CREATE TABLE pokes (foo INT, bar STRING);
-  > LOAD DATA LOCAL INPATH '/opt/hive/examples/files/kv1.txt' OVERWRITE INTO TABLE pokes;
-```
+Максимальное число скробблов:
+* [Запрос](quries/max_scrobbles.sql)
+* [Результат](output/query1.txt)
 
-Then query it from PrestoDB. You can get [presto.jar](https://prestosql.io/docs/current/installation/cli.html) from PrestoDB website:
+Самый популярный тег:
+* [Запрос](quries/most_pop_tag.sql)
+* [Результат](output/query2.txt)
+
+Самый популярные исполнители 10 самых популярных тегов:
+* [Запрос](quries/most_pop_art_by_tags.sql)
+* [Результат](output/query3.txt)
+
+Инсайт. Поиск наиболее похожих K пар исполнителей на основании числа совпадающих тегов среди top N исполнителей. На основании такого запроса можно построить граф наиболее похожих исполнителей по тегам и дальше его анализировать.
+* [Запрос](quries/most_sim_artists_by_tag.sql)
+* [Результат (представлена только часть запроса)](output/query4.txt)
+
+
+## Как запустить
+
+[Скачать данные](https://www.kaggle.com/pieca111/music-artists-popularity), распаковать и добавить в директорию `data`.
+
+Выполнить команду:
 ```
-  $ wget https://repo1.maven.org/maven2/io/prestosql/presto-cli/308/presto-cli-308-executable.jar
-  $ mv presto-cli-308-executable.jar presto.jar
-  $ chmod +x presto.jar
-  $ ./presto.jar --server localhost:8080 --catalog hive --schema default
-  presto> select * from pokes;
+docker-compose up --build
 ```
 
-## Contributors
-* Ivan Ermilov [@earthquakesan](https://github.com/earthquakesan) (maintainer)
-* Yiannis Mouchakis [@gmouchakis](https://github.com/gmouchakis)
-* Ke Zhu [@shawnzhu](https://github.com/shawnzhu)
+Дождаться завершение инициализации СУБД и остальных сервисов. Зайти по адресу [http://localhost:8888/](http://localhost:8888/)
