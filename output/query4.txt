@@ -1,0 +1,204 @@
+┌─────────────────────────┬─────────────────────────┬─────────────────┬───────┐
+| artist_left             | artist_right            | num_equal_tags  | rank  |
+├─────────────────────────┼─────────────────────────┼─────────────────┼───────┤
+| AC/DC                   | Led Zeppelin            | 12              | 1     |
+| AC/DC                   | Guns N' Roses           | 12              | 2     |
+| AC/DC                   | Bob Dylan               | 11              | 3     |
+| Adele                   | Florence + the Machine  | 19              | 1     |
+| Adele                   | Coldplay                | 16              | 2     |
+| Adele                   | Björk                   | 16              | 3     |
+| Adele                   | John Mayer              | 15              | 4     |
+| Arcade Fire             | Sufjan Stevens          | 18              | 1     |
+| Arcade Fire             | Florence + the Machine  | 18              | 2     |
+| Arcade Fire             | Bloc Party              | 16              | 3     |
+| Arcade Fire             | Modest Mouse            | 16              | 4     |
+| Arctic Monkeys          | Bloc Party              | 18              | 1     |
+| Arctic Monkeys          | Franz Ferdinand         | 17              | 2     |
+| Arctic Monkeys          | Oasis                   | 16              | 3     |
+| Arctic Monkeys          | David Bowie             | 15              | 4     |
+| Ariana Grande           | Christina Aguilera      | 30              | 1     |
+| Ariana Grande           | Rihanna                 | 27              | 2     |
+| Ariana Grande           | Britney Spears          | 27              | 3     |
+| Ariana Grande           | Beyoncé                 | 26              | 4     |
+| Avril Lavigne           | Britney Spears          | 29              | 1     |
+| Avril Lavigne           | Christina Aguilera      | 25              | 2     |
+| Avril Lavigne           | Katy Perry              | 24              | 3     |
+| Avril Lavigne           | Panic! at the Disco     | 22              | 4     |
+| Beck                    | Sufjan Stevens          | 25              | 1     |
+| Beck                    | David Bowie             | 24              | 2     |
+| Beck                    | Elliott Smith           | 24              | 3     |
+| Beck                    | Radiohead               | 23              | 4     |
+| Beyoncé                 | Christina Aguilera      | 43              | 1     |
+| Beyoncé                 | Rihanna                 | 36              | 2     |
+| Beyoncé                 | Britney Spears          | 35              | 3     |
+| Beyoncé                 | Ariana Grande           | 26              | 4     |
+| Björk                   | Beck                    | 22              | 1     |
+| Björk                   | David Bowie             | 21              | 2     |
+| Björk                   | Sigur Rós               | 20              | 3     |
+| Björk                   | Radiohead               | 20              | 4     |
+| Black Sabbath           | Led Zeppelin            | 13              | 1     |
+| Black Sabbath           | David Bowie             | 13              | 2     |
+| Black Sabbath           | Iron Maiden             | 13              | 3     |
+| Black Sabbath           | Pink Floyd              | 12              | 4     |
+| Bloc Party              | Franz Ferdinand         | 25              | 1     |
+| Bloc Party              | David Bowie             | 24              | 2     |
+| Bloc Party              | Interpol                | 22              | 3     |
+| Bloc Party              | Muse                    | 20              | 4     |
+| Bob Dylan               | Johnny Cash             | 21              | 1     |
+| Bob Dylan               | Elliott Smith           | 20              | 2     |
+| Bob Dylan               | David Bowie             | 18              | 3     |
+| Bob Dylan               | Sufjan Stevens          | 17              | 4     |
+| Bon Iver                | Sufjan Stevens          | 24              | 1     |
+| Bon Iver                | Elliott Smith           | 20              | 2     |
+| Bon Iver                | Beck                    | 17              | 3     |
+| Bon Iver                | Jack Johnson            | 15              | 4     |
+| Britney Spears          | Christina Aguilera      | 40              | 1     |
+| Britney Spears          | Beyoncé                 | 35              | 2     |
+| Britney Spears          | Rihanna                 | 34              | 3     |
+| Britney Spears          | Lady Gaga               | 33              | 4     |
+| Christina Aguilera      | Beyoncé                 | 43              | 1     |
+| Christina Aguilera      | Britney Spears          | 40              | 2     |
+| Christina Aguilera      | Rihanna                 | 36              | 3     |
+| Christina Aguilera      | Ariana Grande           | 30              | 4     |
+| Coldplay                | Maroon 5                | 23              | 1     |
+| Coldplay                | John Mayer              | 20              | 2     |
+| Coldplay                | David Bowie             | 20              | 3     |
+| Coldplay                | Radiohead               | 19              | 4     |
+| Crystal Castles         | Depeche Mode            | 13              | 1     |
+| Crystal Castles         | Björk                   | 11              | 2     |
+| Crystal Castles         | Daft Punk               | 11              | 3     |
+| Daft Punk               | Depeche Mode            | 15              | 1     |
+| Daft Punk               | Björk                   | 13              | 2     |
+| Daft Punk               | Britney Spears          | 13              | 3     |
+| Daft Punk               | Lady Gaga               | 12              | 4     |
+| David Bowie             | Radiohead               | 24              | 1     |
+| David Bowie             | Beck                    | 24              | 2     |
+| David Bowie             | Bloc Party              | 24              | 3     |
+| David Bowie             | Pink Floyd              | 23              | 4     |
+| Death Cab for Cutie     | Sufjan Stevens          | 25              | 1     |
+| Death Cab for Cutie     | Modest Mouse            | 23              | 2     |
+| Death Cab for Cutie     | Elliott Smith           | 22              | 3     |
+| Death Cab for Cutie     | John Mayer              | 20              | 4     |
+| Depeche Mode            | David Bowie             | 22              | 1     |
+| Depeche Mode            | Radiohead               | 17              | 2     |
+| Depeche Mode            | Björk                   | 17              | 3     |
+| Depeche Mode            | Bloc Party              | 17              | 4     |
+| Disturbed               | System of a Down        | 20              | 1     |
+| Disturbed               | Slipknot                | 19              | 2     |
+| Disturbed               | Incubus                 | 15              | 3     |
+| Disturbed               | Korn                    | 14              | 4     |
+| Drake                   | Kanye West              | 17              | 1     |
+| Drake                   | Beyoncé                 | 11              | 2     |
+| Elliott Smith           | Sufjan Stevens          | 42              | 1     |
+| Elliott Smith           | John Mayer              | 29              | 2     |
+| Elliott Smith           | Beck                    | 24              | 3     |
+| Elliott Smith           | Jack Johnson            | 23              | 4     |
+| Eminem                  | Beck                    | 12              | 1     |
+| Eminem                  | Sufjan Stevens          | 12              | 2     |
+| Eminem                  | Beyoncé                 | 11              | 3     |
+| Eminem                  | Christina Aguilera      | 11              | 4     |
+| Evanescence             | Marilyn Manson          | 20              | 1     |
+| Evanescence             | Linkin Park             | 16              | 2     |
+| Evanescence             | Paramore                | 15              | 3     |
+| Evanescence             | Incubus                 | 15              | 4     |
+| Fall Out Boy            | Panic! at the Disco     | 33              | 1     |
+| Fall Out Boy            | My Chemical Romance     | 30              | 2     |
+| Fall Out Boy            | Paramore                | 22              | 3     |
+| Fall Out Boy            | Avril Lavigne           | 21              | 4     |
+| Florence + the Machine  | Adele                   | 19              | 1     |
+| Florence + the Machine  | David Bowie             | 19              | 2     |
+| Florence + the Machine  | Bloc Party              | 18              | 3     |
+| Florence + the Machine  | Arcade Fire             | 18              | 4     |
+| Foo Fighters            | Incubus                 | 19              | 1     |
+| Foo Fighters            | Red Hot Chili Peppers   | 19              | 2     |
+| Foo Fighters            | Green Day               | 18              | 3     |
+| Foo Fighters            | My Chemical Romance     | 18              | 4     |
+| Franz Ferdinand         | Bloc Party              | 25              | 1     |
+| Franz Ferdinand         | David Bowie             | 18              | 2     |
+| Franz Ferdinand         | Interpol                | 18              | 3     |
+| Franz Ferdinand         | Placebo                 | 17              | 4     |
+| Gorillaz                | Beck                    | 20              | 1     |
+| Gorillaz                | Radiohead               | 19              | 2     |
+| Gorillaz                | Bloc Party              | 17              | 3     |
+| Gorillaz                | Björk                   | 17              | 4     |
+| Green Day               | Incubus                 | 20              | 1     |
+| Green Day               | My Chemical Romance     | 19              | 2     |
+| Green Day               | Red Hot Chili Peppers   | 19              | 3     |
+| Green Day               | Foo Fighters            | 18              | 4     |
+| Guns N' Roses           | AC/DC                   | 12              | 1     |
+| Guns N' Roses           | Queens of the Stone Age | 12              | 2     |
+| Guns N' Roses           | Marilyn Manson          | 12              | 3     |
+| Guns N' Roses           | Nine Inch Nails         | 11              | 4     |
+| Incubus                 | System of a Down        | 23              | 1     |
+| Incubus                 | Red Hot Chili Peppers   | 23              | 2     |
+| Incubus                 | Maroon 5                | 23              | 3     |
+| Incubus                 | Beck                    | 22              | 4     |
+| Interpol                | Modest Mouse            | 23              | 1     |
+| Interpol                | Bloc Party              | 22              | 2     |
+| Interpol                | Sufjan Stevens          | 20              | 3     |
+| Interpol                | Pixies                  | 19              | 4     |
+| Iron Maiden             | Black Sabbath           | 13              | 1     |
+| Jack Johnson            | John Mayer              | 24              | 1     |
+| Jack Johnson            | Elliott Smith           | 23              | 2     |
+| Jack Johnson            | Sufjan Stevens          | 21              | 3     |
+| Jack Johnson            | Death Cab for Cutie     | 20              | 4     |
+| John Mayer              | Elliott Smith           | 29              | 1     |
+| John Mayer              | Jack Johnson            | 24              | 2     |
+| John Mayer              | Maroon 5                | 24              | 3     |
+| John Mayer              | Sufjan Stevens          | 23              | 4     |
+| Johnny Cash             | Bob Dylan               | 21              | 1     |
+| Johnny Cash             | Led Zeppelin            | 16              | 2     |
+| Johnny Cash             | Kings of Leon           | 16              | 3     |
+| Johnny Cash             | Sufjan Stevens          | 15              | 4     |
+| Joy Division            | Depeche Mode            | 16              | 1     |
+| Joy Division            | David Bowie             | 15              | 2     |
+| Joy Division            | Pixies                  | 13              | 3     |
+| Joy Division            | Bloc Party              | 13              | 4     |
+| Kanye West              | Drake                   | 17              | 1     |
+| Kanye West              | Rihanna                 | 15              | 2     |
+| Kanye West              | Beyoncé                 | 14              | 3     |
+| Kanye West              | Beck                    | 13              | 4     |
+| Katy Perry              | Britney Spears          | 32              | 1     |
+| Katy Perry              | Christina Aguilera      | 29              | 2     |
+| Katy Perry              | Rihanna                 | 28              | 3     |
+| Katy Perry              | Lady Gaga               | 26              | 4     |
+| Kings of Leon           | Pixies                  | 17              | 1     |
+| Kings of Leon           | Beck                    | 16              | 2     |
+| Kings of Leon           | Sufjan Stevens          | 16              | 3     |
+| Kings of Leon           | Johnny Cash             | 16              | 4     |
+| Korn                    | Slipknot                | 18              | 1     |
+| Korn                    | Linkin Park             | 15              | 2     |
+| Korn                    | Marilyn Manson          | 15              | 3     |
+| Korn                    | System of a Down        | 15              | 4     |
+| Lady Gaga               | Britney Spears          | 33              | 1     |
+| Lady Gaga               | Madonna                 | 28              | 2     |
+| Lady Gaga               | Rihanna                 | 26              | 3     |
+| Lady Gaga               | Katy Perry              | 26              | 4     |
+| Lana Del Rey            | Elliott Smith           | 20              | 1     |
+| Lana Del Rey            | Björk                   | 20              | 2     |
+| Lana Del Rey            | Sufjan Stevens          | 19              | 3     |
+| Lana Del Rey            | Christina Aguilera      | 17              | 4     |
+| Led Zeppelin            | David Bowie             | 18              | 1     |
+| Led Zeppelin            | Pink Floyd              | 17              | 2     |
+| Led Zeppelin            | Johnny Cash             | 16              | 3     |
+| Led Zeppelin            | Queen                   | 16              | 4     |
+| Linkin Park             | Incubus                 | 21              | 1     |
+| Linkin Park             | Panic! at the Disco     | 18              | 2     |
+| Linkin Park             | System of a Down        | 18              | 3     |
+| Linkin Park             | Red Hot Chili Peppers   | 18              | 4     |
+| Madonna                 | Britney Spears          | 30              | 1     |
+| Madonna                 | Lady Gaga               | 28              | 2     |
+| Madonna                 | Christina Aguilera      | 24              | 3     |
+| Madonna                 | Katy Perry              | 23              | 4     |
+| Marilyn Manson          | Nine Inch Nails         | 20              | 1     |
+| Marilyn Manson          | Evanescence             | 20              | 2     |
+| Marilyn Manson          | Incubus                 | 18              | 3     |
+| Marilyn Manson          | System of a Down        | 17              | 4     |
+| Maroon 5                | John Mayer              | 24              | 1     |
+| Maroon 5                | Incubus                 | 23              | 2     |
+| Maroon 5                | Coldplay                | 23              | 3     |
+| Maroon 5                | Panic! at the Disco     | 22              | 4     |
+| Massive Attack          | Björk                   | 15              | 1     |
+| Massive Attack          | Gorillaz                | 15              | 2     |
+| Massive Attack          | Sigur Rós               | 12              | 3     |
+└─────────────────────────┴─────────────────────────┴─────────────────┴───────┘
