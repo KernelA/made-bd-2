@@ -10,24 +10,24 @@
 
 ### Создание таблицы и загрузка данных
 
-[SQL DDL](quries/create_and_load.sql)
+[SQL DDL](queries/create_and_load.sql)
 
 ### Запросы
 
 Максимальное число скробблов:
-* [Запрос](quries/max_scrobbles.sql)
+* [Запрос](queries/max_scrobbles.sql)
 * [Результат](output/query1.txt)
 
 Самый популярный тег:
-* [Запрос](quries/most_pop_tag.sql)
+* [Запрос](queries/most_pop_tag.sql)
 * [Результат](output/query2.txt)
 
 Самый популярные исполнители 10 самых популярных тегов:
-* [Запрос](quries/most_pop_art_by_tags.sql)
+* [Запрос](queries/most_pop_art_by_tags.sql)
 * [Результат](output/query3.txt)
 
 Инсайт. Поиск наиболее похожих K пар исполнителей на основании числа совпадающих тегов среди top N исполнителей. На основании такого запроса можно построить граф наиболее похожих исполнителей по тегам и дальше его анализировать.
-* [Запрос](quries/most_sim_artists_by_tag.sql)
+* [Запрос](queries/most_sim_artists_by_tag.sql)
 * [Результат (представлена только часть запроса)](output/query4.txt)
 
 
