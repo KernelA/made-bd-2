@@ -1,5 +1,5 @@
-# docker-hadoop-hive-parquet
+# HW02 Hive
 
-This project will showcase how to spin up a Hadoop cluster with Hive in order to run SQL queries on Parquet files. Images for the nodes are based on https://hub.docker.com/u/bde2020 base images.
+## Блок 1 Развёртывание Hive
 
-All of this makes more sense if you follow the link in the repository to the article on Medium :)
+[Скриншоты Hive с Hue](images/README.md)

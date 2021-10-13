@@ -15,7 +15,7 @@ services:
   uploader:
     image: bde2020/hadoop-namenode:2.0.0-hadoop2.7.4-java8
     entrypoint: bash
-    command: -c "hdfs dfs -put /mnt/data/artists.csv hdfs://namenode/user/hive/"
+    command: -c "if ! $$(hdfs dfs -test -e hdfs://namenode/artists.csv); then hdfs dfs -put /mnt/data/artists.csv hdfs://namenode/artists.csv; fi"
     environment:
       - CLUSTER_NAME=test
     env_file:
@@ -79,7 +79,7 @@ services:
       - ./hadoop-hive.env
     environment:
         SERVICE_PRECONDITION: "namenode:50070 datanode:50075 hive-metastore-postgresql:5432 resourcemanager:8088 hive-metastore:9083"
-  
+
   hue:
     image: gethue/hue:4.6.0
     environment:
