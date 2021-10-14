@@ -1,5 +1,5 @@
 SELECT
-    t.tag
+    t.tag as most_pop_tag
 FROM
     (
         SELECT
@@ -10,7 +10,7 @@ FROM
         WHERE
             trim(tag) != ''
         GROUP BY
-            trim(tag)
+            tag
         ORDER BY
             count_tag DESC
         LIMIT

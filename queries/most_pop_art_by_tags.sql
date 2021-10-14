@@ -27,7 +27,7 @@ WHERE
                 WHERE
                     trim(tag) != ''
                 GROUP BY
-                    trim(tag)
+                    tag
                 ORDER BY
                     count_tag DESC
                 LIMIT
