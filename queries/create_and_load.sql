@@ -9,6 +9,6 @@ CREATE TABLE IF NOT EXISTS artist (
     listeners_lastfm int,
     scrobbles_lastfm int,
     ambiguous_artist BOOLEAN
-) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' COLLECTION ITEMS TERMINATED BY ';';
+) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' COLLECTION ITEMS TERMINATED BY ';' TBLPROPERTIES ("skip.header.line.count"="1");
 
 LOAD DATA INPATH '/artists.csv' OVERWRITE INTO TABLE artist;
